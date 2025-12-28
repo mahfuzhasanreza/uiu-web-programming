@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+#info{
+    color: #ff4419;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#signup-btn{
+    padding: 10px 20px;
+    background-color: #ff4419;
+    border: none;
+    color: white;
+}
+
+.flex-gap{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#text-dash{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+#header-bottom{
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+#parent{
+    background-color: #EAF1F1;
+    padding: 40px;
+}
+
+#title-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    border: 3px solid black;
+    width: 180px;
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px black;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.dollar{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.card-btn{
+    background-color: #1d78f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+.card-footer{
+    font-size: x-small;
+    font-weight: lighter;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#card-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer  */
+#footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#dotted-underline{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#website-creation-link{
+    color: #1d78f0;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
