@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.do-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bg-white-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* navbar  */
+
+#navbar{
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.user-dp{
+    background-color: #536FFE;
+    padding: 15px;
+    color: white;
+    border-radius: 50%;
+    width: 16px;
+}
+
+
+/* main section  */
+
+.card-3-up{
+    width: 25%;
+}
+
+.card-1-up{
+    width: 50%;
+
+}
+
+#progress-80{
+    background-color: #536FFE;
+    width: 80%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+#progress-7{
+    background-color: #F93536;
+    width: 70%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+#main-section{
+    background-color: #EBEBEB;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#btn1{
+    padding: 8px 16px;
+    border-radius: 18px;
+    border: none;
+    background-color: #C1CDFF;
+}
+
+#progress-90{
+    background-color: #C1CDFF;
+    width: 90%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+#btn2{
+    padding: 8px 16px;
+    border-radius: 18px;
+    border: none;
+    background-color: #9EFE1E;
+}
+
+#progress-50{
+    background-color: #9EFE1E;
+    width: 50%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.margin-main{
+    margin-top: 11px;
+}
+
+#btn3{
+    padding: 8px 16px;
+    border-radius: 18px;
+    border: none;
+    background-color: #FEBD57;
+}
+
+#progress-60{
+    background-color: #FEBD57;
+    width: 60%;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.main-down-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

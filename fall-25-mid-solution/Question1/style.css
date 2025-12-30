@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar styles  */
+
+.do-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar{
+    justify-content: space-between;
+    margin: 7px 50px;
+}
+
+/* main section  */
+.main-section{
+    margin: 10px 30px;
+    background-color: #EFF6FE;
+    border: 20px solid #ECEFF4;
+    border-top: 40px solid #ECEFF4;
+    padding: 30px;
+}
+
+
+#main-section-left{
+    width: 45%;
+    margin-right: 50px;
+    margin-left: 120px;
+}
+
+#main-section-right{
+    width: 30%;
+    margin-right: 50px;
+}
+
+/* main section: left  */
+
+.main-margin-top{
+    margin-top: 20px;
+}
+
+.color1{
+    color: #3F46A4;
+}
+
+.box{
+    width: 10px;
+    height: 10px;
+    background-color: #50AD50;
+}
+
+#learn-btn{
+    padding: 8px 16px;
+    background-color: #50AD50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+#watch-btn{
+    padding: 7px 16px;
+    border-radius: 4px;
+    border: 1px solid #3F46A4;
+    color: #3F46A4;
+    background-color: transparent;
+}
+
+/* main section right side  */
+
+.color2{
+    color: #6FB570;
+}
+
+#create-btn{
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FEFEFE;
+    /* color: white; */
+}
+
+.main-margin-top-10{
+    margin-top: 10px;
+}
+
+.input-form{
+    padding: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
