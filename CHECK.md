@@ -1,5 +1,5 @@
-// 1
 
+```php
 $servername = "localhost"; 
 $username = "username"; 
 $password = "password"; 
@@ -20,9 +20,9 @@ $row["lastname"]. "<br>";
   echo "0 results"; 
 } 
 $conn->close(); 
+```
 
-
-// 2
+```php
 $servername = "localhost"; 
 $username = "username"; 
 $password = "password"; 
@@ -39,16 +39,8 @@ if ($conn->query($sql) === TRUE) {
   echo "Error updating record: " . $conn->error; 
 } 
 $conn->close(); 
+```
 
-
-// gpt
-
-
-
-নিচে **এক জায়গায় সব CRUD + FILTER + SORT + AGGREGATE** নিয়ে **exam-ready short notes** দিলাম।
-এটা তুমি **revision / viva / written exam**—সব জায়গায় ব্যবহার করতে পারবে ✅
-
----
 
 # 📘 SQL NOTES: CRUD + FILTERING + SORTING
 
