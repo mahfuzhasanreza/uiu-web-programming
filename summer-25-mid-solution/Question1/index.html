@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex-r">
+        <!-- sidebar -->
+        <nav id="sidebar">
+            <h2 style="background-color: rgb(16, 16, 162);">UIU LEARNING HUB</h2>
+            <p id="dashboard">Dashboard</p>
+            <p>My Courses</p>
+            <p>Assignments</p>
+            <p>Exams</p>
+            <p>Resources</p>
+            <p>Grades & Results</p>
+            <p>Calendar</p>
+            <p>Discussion Forum</p>
+            <p>Settings</p>
+        </nav>
+
+        <main>
+            <div class="flex-r flex-between">
+                <h2>Welcome to Your Learning Dashboard</h2>
+                <p id="search">Search courses, resources...</p>
+            </div>
+
+            <div class="flex-r course-container">
+                <!-- card 1 -->
+                <div class="card">
+                    <div id="card1-bg">
+                        <h3>CSE 4165: Web Programming</h3>
+                        <p style="margin-top: 35px;">Prof. Rahman</p>
+                    </div>
+
+
+                    <div style="padding: 15px;">
+                        <progress id="progress1" value="75" max="100"></progress>
+                        <div class="flex-r flex-between bottom-info">
+                            <p>Progress: 75%</p>
+                            <p>Grade: A</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- card 2 -->
+                <div class="card">
+                    <div id="card2-bg">
+                        <h3>CSE 3115: Database Systems</h3>
+                        <p style="margin-top: 35px;">Dr. Karim</p>
+                    </div>
+
+
+                    <div style="padding: 15px;">
+                        <progress id="progress2" value="45" max="100"></progress>
+                        <div class="flex-r flex-between bottom-info">
+                            <p>Progress: 45%</p>
+                            <p>Grade: B+</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- card 3 -->
+                <div class="card">
+                    <div id="card3-bg">
+                        <h3>CSE 3412: Algorithms</h3>
+                        <p style="margin-top: 35px;">Prof. Ahmed</p>
+                    </div>
+
+
+                    <div style="padding: 15px;">
+                        <progress id="progress3" value="90" max="100"></progress>
+                        <div class="flex-r flex-between bottom-info">
+                            <p>Progress: 90%</p>
+                            <p>Grade: A+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- footer  -->
+            <div class="bottom-section">
+                <h3 style="margin-bottom: 15px; padding-left: 10px;">Upcoming Classes & Deadlines</h3>
+                
+                <div class="flex-r course-container">
+                    <!-- card 1 -->
+                <div class="bottom-card bottom-card1-bg">
+                    <p>Today, 11:00 AM - 12:30 PM</p>
+                    <h3>CSE 4165: Web Programming</h3>
+                    <p class="imp-note">Lecture</p>
+                </div>
+
+                <!-- card 2 -->
+                <div class="bottom-card bottom-card2-bg">
+                    <p>Tomorrow, 9:30 AM</p>
+                    <h3>Database Quiz</h3>
+                    <p class="imp-note">Assignment</p>
+                </div>
+
+                <!-- card 3 -->
+                <div class="bottom-card bottom-card3-bg">
+                    <p>Apr 6, 2:00 AM - 4:00 PM</p>
+                    <h3>Algorithms Lab</h3>
+                    <p class="imp-note">Practical</p>
+                </div>
+                </div>
+
+            </div>
+
+
+        </main>
+    </div>
+</body>
+
+</html>

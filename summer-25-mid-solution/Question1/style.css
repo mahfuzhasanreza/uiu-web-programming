@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    background-color: rgba(45, 45, 186, 0.919);
+    color: white;
+    height: 100vh;
+    width: 500px;
+}
+
+nav p, h2{
+    padding: 10px;
+}
+
+#dashboard{
+    margin-top: 15px;
+    background-color: rgba(241, 213, 213, 0.174);
+}
+
+.flex-r{
+    display: flex;
+}
+
+main{
+    background-color: rgb(237, 231, 231);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.flex-between{
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search{
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+.card{
+    margin-top: 10px;
+    width: 490px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#progress1{
+    margin: 15px 0px;
+    accent-color: green;
+    width: 100%;
+}
+
+.bottom-info{
+    color: rgb(179, 168, 168);
+}
+
+#card1-bg{
+    background: linear-gradient(to right, red, rgb(26, 225, 26));
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* cart 2 */
+
+#progress2{
+    margin: 15px 0px;
+    accent-color: rgb(194, 9, 182);
+    width: 100%;
+}
+
+#card2-bg{
+    background: linear-gradient(to right, red, rgb(225, 119, 26));
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/* cart 3 */
+
+#progress3{
+    margin: 15px 0px;
+    accent-color: rgb(95, 9, 194);
+    width: 100%;
+}
+
+#card3-bg{
+    background: linear-gradient(to right, rgb(47, 157, 10), rgb(13, 5, 119));
+    padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.course-container{
+    justify-content: space-evenly;
+}
+
+/* bottom card  */
+.bottom-card{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 440px;
+}
+
+.bottom-card1-bg{
+    background: radial-gradient(circle, white 1%, rgb(255, 89, 0) 60%);
+}
+
+
+.bottom-card2-bg{
+    background: radial-gradient(circle, rgb(195, 211, 18) 1%, rgb(8, 8, 151) 60%);
+}
+
+
+.bottom-card3-bg{
+    background: radial-gradient(circle, rgb(194, 105, 23) 1%, rgb(8, 162, 144) 60%);
+}
+
+.imp-note{
+    background-color: rgba(207, 205, 202, 0.376);
+    padding: 4px 7px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.bottom-section{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
