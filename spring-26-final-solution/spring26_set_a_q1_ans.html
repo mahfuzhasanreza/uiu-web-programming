@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Weekly Study Tracker</h2>
+
+    <input type="text" name="" id="subject" placeholder="Enter subject name">
+    <input type="number" name="" id="hours" placeholder="Enter study hours">
+    <button onclick="addStudy()">Add Study</button>
+
+    <p id="output">Total: 0 hour, Average: 0 hour, Subjects: [], Start studying regularly!</p>
+
+    <script>
+        const weeklyGoal = 20;
+
+        let totalHours = 0;
+        let avgStudyHours = 0;
+        let subjectList = [];
+        let feedbackMessage = "";
+        let sessionCount = 0;
+
+        function addStudy(){
+            let subject = document.getElementById("subject").value;
+            let hours = Number(document.getElementById("hours").value);
+
+            totalHours += hours;
+            subjectList.push(subject);
+            sessionCount++;
+            avgStudyHours = totalHours / sessionCount;
+
+            if(sessionCount>7 && totalHours<weeklyGoal){
+                feedbackMessage = "Increase your study time!";
+            } else if(totalHours>=0 && totalHours<=5){
+                feedbackMessage = "Start studying regularly!";
+            } else if(totalHours>=6 && totalHours<=12){
+                feedbackMessage = "Good progress!";
+            } else if(totalHours>=13 && totalHours<=19){
+                feedbackMessage = "Almost ready!";
+            } else if(totalHours>=20){
+                feedbackMessage = "Weekly goal reached!";
+            }
+
+            document.getElementById("output").textContent = "Total: " + totalHours + " hours, Average: " + avgStudyHours + " hours, Subjects: [" + subjectList.join(", ") + "], " + feedbackMessage;
+        }
+    </script>
+</body>
+</html>
